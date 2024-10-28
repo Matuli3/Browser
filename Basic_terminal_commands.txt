@@ -1,0 +1,33 @@
+Create a Folder:
+mkdir folder_name
+
+Navigate to a Folder:
+cd folder_name
+
+Go Up One Directory Level:
+cd ..
+
+List Files and Folders:
+dir
+
+Create an Empty File:
+type nul > filename.ext
+
+Remove a File:
+del filename.ext
+
+Remove a Directory (including all contents):
+rmdir /S folder_name
+
+Copy Files:
+copy source_file destination_folder
+
+
+Create an Empty .robot File:
+type nul > filename.robot
+
+If you want to create the file with some initial content, you can use:
+"*** Settings ***" | Out-File -FilePath "Browser_lib_demo.robot"
+
+Open File
+pycharm Browser_lib_demo.robot
